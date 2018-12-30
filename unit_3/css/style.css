@@ -1,0 +1,20 @@
+body {
+    background-color: #ffe6f2;
+}
+
+h1, h2, p, li {
+    color: #ff006e;
+}  
+#slogan {color: #ff006e}   
+ 
+a:link {
+  color: #ff006e;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
