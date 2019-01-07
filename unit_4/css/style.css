@@ -1,23 +1,26 @@
-<style>
+
 @import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
-</style> 
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 body {
     background-color: white;
+    cursor: url(collage-thot-mouse.cur),auto;
 }
 h1 {
-    color: #ff006e;
+    color: #f200d2;
 } 
 h2 {
 	font-family: 'Reenie Beanie', cursive;
-	color: #ff006e;
+	color: #f200d2;
 
 }  
 p, li {
-	color: #ff006e;
+	font-family: 'Oswald', cursive;
+	color: #f200d2;
 
 } 
 a:link {
-  color: #ff006e;
+  color: #f200d2;
 }
 
 a:visited {
@@ -26,4 +29,3 @@ a:visited {
 
 a:hover {
   color: black;
-}
