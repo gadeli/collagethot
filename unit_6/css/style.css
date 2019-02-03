@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+    background-color: pink;
+    cursor: url(collage-thot-mouse.cur),auto;
+}
+nav {
+  background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+}
+section {
+  background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer {
+  background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+}
+h1 {
+    color: #f200d2;
+} 
+h2 {
+  font-family: 'Reenie Beanie', cursive;
+  color: #f200d2;
+}  
+p, li, footer {
+  font-family: 'Oswald', cursive;
+  color: #f200d2;
+} 
+a:link {
+  color: #f200d2;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+#left {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
