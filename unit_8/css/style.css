@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+
+body {
+  background-color: pink;
+  cursor: url(collage-thot-mouse.cur), auto;
+}
+nav {
+  background-color: pink;
+  padding: 2%;
+}
+section {
+  background-color: pink;
+  padding: 2%;
+}
+footer {
+  background-color: pink;
+  padding: 2%;
+}
+h1 {
+  color: #f200d2;
+}
+h2 {
+  font-family: "Reenie Beanie", cursive;
+  color: #f200d2; 
+  text-align: center;
+}
+p,
+li,
+footer {
+  font-family: "Oswald", cursive;
+  color: #f200d2;
+}
+a:link {
+  color: #f200d2;
+  font-family: "Reenie Beanie", cursive;
+  font-weight: bold;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+#one_column {
+  background-color: #ffb7cf;
+  padding: 2%;
+}
+#center {
+  background-color: pink;
+  padding: 2%;
+  float: center;
+  width: 6.5%;
+}
+
+.sidepanel {
+  height: 26%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white; 
+  overflow-x: hidden; 
+  padding-top: 6.25%; 
+  transition: 0.5s; 
+}
+
+.sidepanel a {
+  padding: .83% .83% .83% 3.3%;
+  text-decoration: none;
+  font-size: 2em;
+  color: #f200d2;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: black;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 2.6%;
+  font-size: 3em;
+  margin-left: 5.2%;
+}
+
+.openbtn {
+  font-size: 1.5em;
+  cursor: url(collage-thot-mouse.cur), auto;
+  background-color: white;
+  color: black;
+  padding: 1% 1.6%px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: pink;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+@media (max-width: 1050px) {
+ img {
+width: 800px;
+}
+} 
+@media (max-width: 800px) {
+ img {
+width: 500px; 
+}
+@media (max-width: 500px) {
+ img {
+width: 300px;   
+}
